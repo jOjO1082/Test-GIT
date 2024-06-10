@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Galdeano&family=Inter:wght@100..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.dashboard-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+  background-color: #e3e3e3;
+}
+
+.dashboard-sidebar-container{
+  width: 16%;
+  height: 100%;
+  background-color: #4f46e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  padding: 1.2rem;
+}
+
+.sidebar-top{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 2rem;
+}
+
+.logo-container{
+  width: 48px;
+  height: 48px;
+}
+
+.logo-container img{
+  width: 100%;
+  height: 100%;
+}
+
+.menu-items-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  column-gap: 0.7rem;
+}
+
+.menu-item{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  column-gap: 0.6rem;
+  /* background-color: aqua; */
+  padding: 0.7rem;
+}
+
+.item-icon-container{
+  width: fit-content;
+  height: auto;
+}
+
+.item-icon-container i{
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
+.item-text-container{
+  width: fit-content;
+  height: auto;
+}
+
+.item-text-container h1{
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+}
+
+.teams-container{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  row-gap: 1rem;
+}
+
+.teams-header-container{
+  width: fit-content;
+  height: auto;
+  padding-left: 0.7rem;
+}
+
+.teams-header-container h1{
+  color: white;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.teams-item{
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color: beige;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  padding: 0.7rem;
+  column-gap: 0.7rem;
+}
+
